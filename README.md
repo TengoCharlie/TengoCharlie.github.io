@@ -22,3 +22,7 @@ The home subdomain has not been activated as part of this branch-preparation tas
 `site-config.json` records the chosen domain and contact settings. This buildless page embeds its current wording and links in `index.html`; editing the JSON alone does not change the page. No data is saved to a server. The visitor reviews and sends the message in their own app. SMS support varies by device; the Copy message option is provided as a fallback.
 
 The contact number is included in the page's links and source. This is a public contact page, not an anonymous relay service. No household address or directions are published.
+
+## QR access gate
+The current page requires the random key query parameter embedded in the updated sticker QR. Plain and incorrect links show scan instructions. This is a client-side convenience gate, not secure authentication; copied QR links also work. The contact data remains in the static HTML source.
+
