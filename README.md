@@ -2,7 +2,7 @@
 
 Prepared on branch `home-door-contact` for **https://myhome.tenguriya.com**.
 
-This is a standalone, responsive English/Hindi resident-contact page for a door QR sticker. It offers Call, WhatsApp and SMS to **+91 94628 28205**. Visitors can optionally add their name, message and current location. There are no photo uploads, emergency contact numbers, home address, or entry-code gate.
+This is a standalone, responsive English/Hindi resident-contact page for a door QR sticker. It offers Call, WhatsApp and SMS to **+91 94628 28205**. Visitors can optionally add their name, message and current location. There are no photo uploads, emergency contact numbers, home address, or manually entered password. The QR includes an access key.
 
 ## Deploy without changing the car site
 
@@ -15,7 +15,7 @@ The existing car website continues to publish from `main` in `TengoCharlie/Tengo
 5. Add a CNAME in Squarespace: host `myhome`, target `tengocharlie.github.io`. Do not alter the car subdomain, root domain, or email records.
 6. After the HTTPS certificate is ready, enable Enforce HTTPS and verify the page, both message types, and the QR from a phone. Location requires HTTPS and the visitor's permission.
 
-The home subdomain has not been activated as part of this branch-preparation task. Print/mount the home QR sticker only after the new URL works.
+GitHub Pages is enabled in TengoCharlie/home-door-contact from main. Squarespace now has myhome CNAME tengocharlie.github.io. HTTPS certificate provisioning is pending final verification. Print/mount the updated QR only after its HTTPS access link works.
 
 ## Content and privacy
 
