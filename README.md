@@ -26,3 +26,6 @@ The contact number is included in the page's links and source. This is a public 
 ## QR access gate
 The current page requires the random key query parameter embedded in the updated sticker QR. Plain and incorrect links show scan instructions. This is a client-side convenience gate, not secure authentication; copied QR links also work. The contact data remains in the static HTML source.
 
+
+## Door location check
+After QR key validation, visitors must grant precise location within 100 metres of the owner-supplied map centre. Readings with accuracy worse than 100 metres are rejected. Denied permission and timeouts keep contacts hidden. This uses browser geolocation and local distance calculation, with no paid map API. Client-side checks can be bypassed or location-spoofed; the centre and contact data are visible in static source.
